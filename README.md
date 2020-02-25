@@ -22,13 +22,13 @@
   
 	Enter > Get-ExecutionPolicy and you'll know if you're restricted to run scripts.
 	
-	Restricted — No scripts are allowed. This is the default setting, so you will see it the first time you run the command.
+	Restricted - No scripts are allowed. This is the default setting, so you will see it the first time you run the command.
 	
-	AllSigned — You can run scripts signed by a trusted developer. With this setting in place, before executing, a script will ask you to confirm that you want to run it.
+	AllSigned - You can run scripts signed by a trusted developer. With this setting in place, before executing, a script will ask you to confirm that you want to run it.
 	
-	RemoteSigned — You can run your own scripts or scripts signed by a trusted developer.
+	RemoteSigned - You can run your own scripts or scripts signed by a trusted developer.
 	
-	Unrestricted — You can run any script you want.
+	Unrestricted - You can run any script you want.
 	
 	To chage your restrictions you can run this command > Set-ExecutionPolicy RemoteSigned
 
@@ -36,4 +36,4 @@
   
   - Create a new file called task.ps1 (using notepad command) and write some commands.
   
-  - Lastly, execute your new script by prefixing its name with **>& .\task.ps1**
+  - Lastly, execute your new script by prefixing its name with **> & .\task.ps1**
