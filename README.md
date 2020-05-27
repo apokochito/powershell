@@ -37,3 +37,7 @@
   - Create a new file called task.ps1 (using notepad command) and write some commands.
   
   - Lastly, execute your new script by prefixing its name with **> & .\task.ps1**
+
+- **Pipes**
+
+  - A pipe passes data from one cmdlet to another. I used a pipe earlier to get all properties of an object.
